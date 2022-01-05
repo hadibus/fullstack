@@ -27,11 +27,11 @@
 	<a href="."><h1>Yesterworks</h1></a>
   <nav>
     <ul class="headmatter">
-	  	<a href="blog.html"><li>blog</li></a>
-	  	<a href=#><li>learning</li></a>
-      <a href=#><li>materials</li></a>
-  		<a href=#><li>tools</li></a>
-  		<a href=#><li>cart</li></a>
+	  	<a href="blog"><li>blog</li></a>
+			<a href="learning"><li>learning</li></a>
+      <a href="materials"><li>materials</li></a>
+  		<a href="tools"><li>tools</li></a>
+  		<a href="cart"><li>cart</li></a>
     </ul>
   </nav>
 </header>

@@ -19,7 +19,7 @@ async fn manual_hello() -> impl Responder {
 async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
         let cors = Cors::default()
-            .allowed_origin("http://localhost:5000")
+            .allowed_origin("http://localhost:3000")
             .allowed_methods(vec!["GET","POST"])
             .max_age(3600);
         App::new()

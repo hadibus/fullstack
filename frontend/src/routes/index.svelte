@@ -1,6 +1,6 @@
  <script lang="ts">
-  import Header from "./Header.svelte";
-  import Footer from "./Footer.svelte";
+  import Header from "./_header.svelte";
+  import Footer from "./_footer.svelte";
 
 	async function getMessage(){
 		const res = await fetch('http://localhost:8080/hey')
