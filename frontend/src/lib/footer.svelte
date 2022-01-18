@@ -9,5 +9,5 @@
 </style>
 
 <footer>
-  Copyright 2021 by Yesterworks supplies
+	<p>Copyright 2021 by Yesterworks supplies</p>
 </footer>
