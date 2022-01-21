@@ -6,7 +6,7 @@
 				<li><a href="/blog">blog</a></li>
 				<li><a href="/learning">learning</a></li>
 				<li><a href="/materials">materials</a></li>
-				<li><a href="  ools">tools</a></li>
+				<li><a href="/tools">tools</a></li>
 				<li><a href="/cart">cart</a></li>
 			</ul>
 		</nav>
