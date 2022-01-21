@@ -22,6 +22,7 @@
 
 <main>
 	<div>
+	<div>
 		<h2>Blog Posts</h2>
 		<ul>
 			{#each posts as post}
@@ -35,6 +36,7 @@
 				</li>
 			{/each}
 		</ul>
+	</div>
 	</div>
 </main>
 

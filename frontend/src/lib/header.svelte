@@ -28,7 +28,6 @@
 		justify-content: space-between;
 		flex-wrap: wrap;
 		flex-grow: 100;
-		align-content: space-around;
 	}
 
 	li {
@@ -45,8 +44,13 @@
 	}
 
 	a {
+		/* color: #e8d9c4; */
 		color: #5d3d20;
 		font-size: 20px;
 		text-decoration: none;
+	}
+
+	img {
+		padding: 20px;
 	}
 </style>

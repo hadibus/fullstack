@@ -7,9 +7,11 @@
 
 <main>
 	<div>
+	<div>
 		<h2>materials</h2>
 
 		<p>materials for purchase should show up here.</p>
+	</div>
 	</div>
 </main>
 

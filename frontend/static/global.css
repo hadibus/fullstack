@@ -1,11 +1,11 @@
-main {
-	padding: 10px;
-	flex: 1;
+main > div {
 	justify-content: center;
 	display: flex;
 }
-
-main > div {
+main {
+	flex: 1;
+}
+main > div > div{
 	max-width: 1120px;
 	flex-grow: 100;
 }

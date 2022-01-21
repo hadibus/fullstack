@@ -7,8 +7,10 @@
 
 <main>
 	<div>
+	<div>
 		<h2>learning</h2>
 		<p>learning resources should show up here.</p>
+	</div>
 	</div>
 </main>
 

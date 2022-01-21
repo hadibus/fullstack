@@ -20,11 +20,45 @@
 	}
 </script>
 
+<style>
+	.upper-image {
+		background-image: url('/woodworking_0.jpg');
+		width: 100%;
+		padding-top: 150px;
+		padding-bottom: 150px;
+		background-position: top center;
+	}
+
+	.upper-image > div {
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.upper-image > div > * {
+		color: white;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+
+	main > div > * {
+		padding: 10px;
+	}
+
+</style>
+
 <Header />
 
 <main>
+	<div class='upper-image'>
 	<div>
-		<h1>Welcome to Yesterworks!</h1>
+		<h1>Welcome</h1>
+		<h1>to</h1>
+		<h1>Yesterworks!</h1>
+	</div>
+	</div>
+	<div>
+		<div>
 		<h3>Our mission...</h3>
 		<p>
 			to provide you with knowledge and wisdom from the past and the
@@ -36,8 +70,8 @@
 			say, move over, it's time for something new. Join us, as this new
 			life unfolds before you.
 		</p>
-		<button on:click={handleClick}> say hey </button>
 
+		<button on:click={handleClick}> say hey </button>
 		<p>latest blog posts</p>
 
 		<p>hottest tools</p>
@@ -49,6 +83,7 @@
 		{:catch error}
 			<p style="color: red">{error.message}</p>
 		{/await}
+		</div>
 	</div>
 </main>
 
