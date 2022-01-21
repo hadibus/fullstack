@@ -1,4 +1,4 @@
-# Fullstack
+# Fullstack-Svelte-Rust
 
 A fullstack project
 
