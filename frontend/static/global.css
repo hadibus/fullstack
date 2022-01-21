@@ -1,0 +1,12 @@
+
+main {
+  padding: 10px;
+  flex: 1;
+	justify-content: center;
+  display: flex;
+}
+
+main > div {
+  max-width: 1120px;
+  flex-grow: 100;
+}

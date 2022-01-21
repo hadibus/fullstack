@@ -4,20 +4,15 @@
 
 </script>
 
-<style>
-	main {
-    padding: 10px;
-    flex: 1;
-	}
-</style>
-
 <Header/>
 
 <main>
+  <div>
 
   <h2>materials</h2>
 
-	<p>materials for purchase should show up here.</p>
+  <p>materials for purchase should show up here.</p>
+  </div>
 
 
 </main>

@@ -10,7 +10,10 @@ const config = {
 	preprocess: [
     preprocess(),
     mdsvex({
-      extensions: ['.svx', '.md']
+      extensions: ['.svx', '.md'],
+      layout: {
+        blog: "src/lib/layout/blog.svelte"
+			}
 		})
 	],
 
