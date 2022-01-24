@@ -7,10 +7,10 @@
 
 <main>
 	<div>
-	<div>
-		<h2>tools</h2>
-		<p>tools for purchase should show up here.</p>
-	</div>
+		<div>
+			<h2>tools</h2>
+			<p>tools for purchase should show up here.</p>
+		</div>
 	</div>
 </main>
 

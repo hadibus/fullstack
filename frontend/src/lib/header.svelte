@@ -50,6 +50,10 @@
 		text-decoration: none;
 	}
 
+	a:hover {
+		color: #e8d9c4;
+	}
+
 	img {
 		padding: 20px;
 	}

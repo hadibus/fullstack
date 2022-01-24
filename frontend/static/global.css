@@ -5,7 +5,8 @@ main > div {
 main {
 	flex: 1;
 }
-main > div > div{
+main > div > div {
 	max-width: 1120px;
 	flex-grow: 100;
+	padding: 20px;
 }
