@@ -1,5 +1,5 @@
 <footer>
-	<p>Copyright 2021 by Yesterworks supplies</p>
+	<p>Copyright 2022 by Yesterworks supplies</p>
 </footer>
 
 <style>
@@ -7,7 +7,8 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		background-color: tan;
+		background-color: #5d3d20;
+		color: white;
 		padding: 10px;
 	}
 </style>

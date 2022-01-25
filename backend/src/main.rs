@@ -62,8 +62,8 @@ async fn main() -> std::io::Result<()> {
             .service(hello)
             .service(echo)
             .wrap(cors)
-            .route("/hey", web::get().to(manual_hello))
-            .route("/products", web::get().to(get_products))
+            .route("/api/hey", web::get().to(manual_hello))
+            .route("/api/products", web::get().to(get_products))
     })
     .bind("0.0.0.0:8080")?
     .run()

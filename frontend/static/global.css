@@ -4,6 +4,7 @@ main > div {
 }
 main {
 	flex: 1;
+	flex-direction: column;
 }
 main > div > div {
 	max-width: 1120px;
